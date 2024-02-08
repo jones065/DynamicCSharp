@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-            //ExpandoTests.SerilizationTest();
+            ExpandoTests.RunTests();
 
-            //ReflectionTests.RunTests();
+            ReflectionTests.RunTests();
 
-            //ComInteropTests.RunTests();
+            ComInteropTests.RunTests();
 
-            //SerializationDeserializationTests.RunTests();
+            SerializationDeserializationTests.RunTests();
 
             DapperSqlTests.RunTests();
         }

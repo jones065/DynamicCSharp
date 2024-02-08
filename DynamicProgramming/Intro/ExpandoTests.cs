@@ -11,7 +11,13 @@ namespace DynamicProgramming
 {
     public class ExpandoTests
     {
-        public static void SerilizationTest()
+        public static void RunTests()
+        {
+            ExpandoTests tests = new ExpandoTests();
+            tests.SerilizationTest();
+        }
+
+        public void SerilizationTest()
         {
             dynamic person = new ExpandoObject();
             person.name = "Jeff Jones";
