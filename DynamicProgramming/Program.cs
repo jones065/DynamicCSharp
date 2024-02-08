@@ -10,7 +10,9 @@
 
             //ComInteropTests.RunTests();
 
-            SerializationDeserializationTests.RunTests();
+            //SerializationDeserializationTests.RunTests();
+
+            DapperSqlTests.RunTests();
         }
     }
 }
