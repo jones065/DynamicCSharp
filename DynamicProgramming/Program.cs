@@ -7,6 +7,8 @@
             //ExpandoTests.SerilizationTest();
 
             ReflectionTests.RunTests();
+
+            ComInteropTests.RunTests();
         }
     }
 }
