@@ -6,9 +6,11 @@
         {
             //ExpandoTests.SerilizationTest();
 
-            ReflectionTests.RunTests();
+            //ReflectionTests.RunTests();
 
-            ComInteropTests.RunTests();
+            //ComInteropTests.RunTests();
+
+            SerializationDeserializationTests.RunTests();
         }
     }
 }
