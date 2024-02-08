@@ -19,6 +19,8 @@ namespace DynamicProgramming
             ReflectionTests tests = new ReflectionTests();
             tests.InvokeMethodUsingReflection(customer);
             tests.InvokeMethodUsingDynamic(customer);
+            tests.GetPropertyValueUsingReflection(customer);
+            tests.GetPropertyValueUsingDynamic(customer);
             
         }
 
@@ -37,6 +39,25 @@ namespace DynamicProgramming
         {
             dynamic c = o;
             c.WriteCustomer("Customer data (dynamic): ");
+        }
+
+        public void GetPropertyValueUsingReflection(object o)
+        {
+            Type t = o.GetType();
+
+            object? result = t.InvokeMember("FirstName",
+                System.Reflection.BindingFlags.GetProperty,
+                null,
+                o,
+                null);
+
+            Console.WriteLine($"Property value (reflection): {result}");
+        }
+
+        public void GetPropertyValueUsingDynamic(object o)
+        {
+            dynamic c = o;
+            Console.WriteLine($"Property value (reflection): {c.FirstName}");
         }
     }
 }
