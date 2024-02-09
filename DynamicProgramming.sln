@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.csproj", "{AABE6599-F736-4F9D-8DA4-0FEF82B279D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.csproj", "{AABE6599-F736-4F9D-8DA4-0FEF82B279D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicProgramming.Tests", "DynamicProgramming.Tests\DynamicProgramming.Tests.csproj", "{623B4814-5D24-4BA9-9080-A4AE1815300F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlGenerator", "HtmlGenerator\HtmlGenerator.csproj", "{C1EA9EDA-1EA7-4BB6-A9EE-E2556B336876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythonInterop", "PythonInterop\PythonInterop.csproj", "{C4E68E39-4419-4A52-AA80-68F5A180A9F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{AABE6599-F736-4F9D-8DA4-0FEF82B279D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AABE6599-F736-4F9D-8DA4-0FEF82B279D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AABE6599-F736-4F9D-8DA4-0FEF82B279D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{623B4814-5D24-4BA9-9080-A4AE1815300F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{623B4814-5D24-4BA9-9080-A4AE1815300F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{623B4814-5D24-4BA9-9080-A4AE1815300F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{623B4814-5D24-4BA9-9080-A4AE1815300F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1EA9EDA-1EA7-4BB6-A9EE-E2556B336876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1EA9EDA-1EA7-4BB6-A9EE-E2556B336876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1EA9EDA-1EA7-4BB6-A9EE-E2556B336876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1EA9EDA-1EA7-4BB6-A9EE-E2556B336876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E68E39-4419-4A52-AA80-68F5A180A9F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E68E39-4419-4A52-AA80-68F5A180A9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E68E39-4419-4A52-AA80-68F5A180A9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E68E39-4419-4A52-AA80-68F5A180A9F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

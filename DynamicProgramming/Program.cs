@@ -4,6 +4,12 @@
     {
         static void Main(string[] args)
         {
+            /***********************************************
+             * Intro
+             *********************************************** 
+            */
+
+            /*
             ExpandoTests.RunTests();
 
             ReflectionTests.RunTests();
@@ -13,6 +19,13 @@
             SerializationDeserializationTests.RunTests();
 
             DapperSqlTests.RunTests();
+            */
+
+            /***********************************************
+            * Dynamic Classes
+            *********************************************** 
+            */
+
         }
     }
 }
